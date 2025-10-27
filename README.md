@@ -7,6 +7,8 @@
 - ⚡ Fun fact: ...
 
 <!---
-tyreektyreek7/tyreektyreek7 is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes..
---->
+
+helm upgrade policy-controller --install --atomic \
+  --create-namespace --namespace artifact-attestations \
+  oci://ghcr.io/sigstore/helm-charts/policy-controller \
+  --version 0.10.5
