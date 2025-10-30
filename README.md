@@ -12,3 +12,4 @@ helm upgrade policy-controller --install --atomic \
   --create-namespace --namespace artifact-attestations \
   oci://ghcr.io/sigstore/helm-charts/policy-controller \
   --version 0.10.5
+ 
